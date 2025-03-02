@@ -16,4 +16,5 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      run: echo "This is aswin"
+      - name: print
+        run: echo "This is aswin"
