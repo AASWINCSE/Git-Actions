@@ -12,3 +12,8 @@ jobs:
 
       - name: Print Message
         run: echo "Hello, GitHub Actions!"  # Runs a simple command
+  aswin:
+    runs-on: windows-latest
+
+    steps:
+      run: echo "This is aswin"
