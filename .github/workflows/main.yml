@@ -1,0 +1,14 @@
+name: My First Workflow
+
+on: push  # Runs when you push code
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Uses Ubuntu runner
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4  # Clones the repository
+
+      - name: Print Message
+        run: echo "Hello, GitHub Actions!"  # Runs a simple command
